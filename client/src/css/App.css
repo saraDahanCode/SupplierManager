@@ -1,0 +1,145 @@
+/* html, body, #root {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+    color: black;
+}
+
+#root > div {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+.MuiBox-root {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.topbar {
+  background-color: #0b1d51 !important;
+  z-index: 1300;
+  height: 64px;
+}
+
+.topbar-title {
+  font-weight: bold;
+  color: #ff6f00; 
+  flex-grow: 1;
+}
+
+.topbar-user {
+  color: #fff;
+}
+
+.content-wrapper {
+  flex: 1;
+  margin-top: 64px; 
+  margin-bottom: 56px; 
+  position: relative;
+  display: flex;
+  align-items: center;     
+  justify-content: center; 
+}
+
+.footer {
+  background-color: #0b1d51;
+  height: 56px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  z-index: 1200;
+}
+
+.footer-text {
+  font-size: 0.875rem;
+} */
+/* בסיס */
+/* בסיס */
+html, body, #root {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  /* min-height: 100vh; */
+  /* max-height: 100px; */
+  color: black;
+}
+
+#root > div {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+/* ה-Box הראשי תופס את כל הגובה */
+.MuiBox-root {
+  /* min-height: 100vh; */
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  z-index: 0;
+}
+
+/* טופבר - fixed למעלה, צבע כחול חלל */
+.topbar {
+  background-color: #0b1d51 !important;
+  z-index: 1300;
+  height: 64px;
+}
+
+/* עיצוב טקסט בטופבר */
+.topbar-title {
+  font-weight: bold;
+  color: #ff6f00; /* כתום חם */
+  flex-grow: 1;
+}
+
+.topbar-user {
+  color: #fff;
+}
+
+/* תוכן - ממורכז בין טופבר לפוטר */
+.content-wrapper {
+  flex: 1;
+  margin-top: 64px;
+  margin-bottom: 56px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 0;
+}
+
+/* פוטר - fixed לתחתית, צבע כחול חלל */
+.footer {
+  background-color: #0b1d51;
+  height: 56px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  z-index: 1200;
+}
+
+.footer-text {
+  font-size: 0.875rem;
+}
+html, body, #root {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}

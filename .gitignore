@@ -1,0 +1,44 @@
+# Node modules
+node_modules/
+client/node_modules/
+server/node_modules/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Environment files
+.env
+.env.*
+
+# Build outputs
+dist/
+build/
+client/build/
+server/build/
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# IDE/editor settings
+.vscode/
+.idea/
+*.sw?
+
+# Coverage reports
+coverage/
+
+# Cache
+.cache/
+.next/
+out/
+
+# React testing
+jest-test-results.json
+
+# Local dev
+*.local
+*.log
